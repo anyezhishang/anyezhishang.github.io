@@ -30,14 +30,28 @@
         <img src="./images/icon.gif" alt="">
     </div>
     <div>
-        <button id="to-dxg">合成情人节大礼盒</button>
+        <button id="to-dxg1">合成情人节大礼盒(音乐1)</button>
+        <button id="to-dxg2">合成情人节大礼盒(音乐2)</button>
+        <button id="to-dxg3">合成情人节大礼盒(音乐3)</button>
+        <button id="to-dxg4">合成情人节大礼盒(音乐4)</button>
     </div>
 
     <script type="text/javascript">
-        let btn = document.getElementById('to-dxg')
-        btn.onclick = function toDxg() {
-            console.log(123);
+        let btn1 = document.getElementById('to-dxg1')
+        let btn2 = document.getElementById('to-dxg2')
+        let btn3 = document.getElementById('to-dxg3')
+        let btn4 = document.getElementById('to-dxg4')
+        btn1.onclick = function toDxg() {
+            window.location.href = 'dxg/index1.html'
+        }
+        btn2.onclick = function toDxg() {
+            window.location.href = 'dxg/index2.html'
+        }
+        btn3.onclick = function toDxg() {
             window.location.href = 'dxg/index.html'
+        }
+        btn4.onclick = function toDxg() {
+            window.location.href = 'dxg/index4.html'
         }
     </script>
 </body>
